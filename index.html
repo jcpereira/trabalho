@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Easy Expense</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<div class="page-header">
+						<h1>
+							Easy Expense <small>suas contas em suas mãos</small>
+						</h1>
+					</div>
+				</div>
+			</div>
+
+				<form  class="form" id="frm-contas">
+  					<fieldset>
+						<div class="control-group">
+    						<label class="control-label" for="despesa">Despesa</label>
+    						<div class="controls">
+     							<input type="text" id="despesa" required="required" />
+    						</div>
+   						</div>
+   						<br>
+						<div class="control-group">
+    						<label class="control-label" for="valor">Valor da Despesa</label>
+    							<div class="controls">
+     							<input type="text" id="valor" required="required" />
+    						</div>
+   						</div>
+						<br/>
+   						<div class="control-group">
+    						<label class="control-label" for="name">Tipo de Despesa</label>
+    						<div class="controls">
+     							<select "controls">
+  									<option>Despesa da Casa</option>
+  									<option>Despesa do Escritório</option>
+  									<option>Despesa do transporte </option>
+  									<option>Despesa de alimentação</option>
+								</select>
+    						</div>
+   						</div>
+   						<br/>
+   						<div class="buttons">
+    						<input type="submit" class="btn btn-success" value="Salvar" />
+   						</div>
+  					</fieldset>
+				</form>
+
+				<br/>
+				<br/>
+
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#">Resumo do Mes</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							#
+						</th>
+						<th>
+							Descrição
+						</th>
+						<th>
+							Data Vencimento
+						</th>
+						<th>
+							Status
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="success">
+						<td>
+							1
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							01/04/2012
+						</td>
+						<td>
+							Pago
+						</td>
+					</tr>
+					<tr class="success">
+						<td>
+							1
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							01/04/2012
+						</td>
+						<td>
+							Pago
+						</td>
+					</tr>
+					<tr class="success">
+						<td>
+							2
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							02/04/2012
+						</td>
+						<td>
+							Pago
+						</td>
+					</tr>
+					<tr class="warning">
+						<td>
+							3
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							03/04/2012
+						</td>
+						<td>
+							A Pagar
+						</td>
+					</tr>
+					<tr class="danger">
+						<td>
+							4
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							04/04/2012
+						</td>
+						<td>
+							Vencido
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					 <address> <strong>Pós Graduação FAI.</strong><br> Antonio de Cássia Filho<br> Santa Rita do Sapucai, Eletronica 37540-000<br> <abbr title="Phone">P:</abbr> (35) 9178-0353</address>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+		</div>
+	</div>
+</div>
+</body>
+</html>
